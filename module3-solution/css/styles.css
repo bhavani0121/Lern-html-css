@@ -1,0 +1,70 @@
+body{
+  font-size:25px;
+  color:#000;
+  background-color:#F4F6F7;
+  font-family: cursive;
+}
+
+#header-nav{
+  background-color: #F35F5F;
+  border:0;
+}
+.navbar-brand{
+  padding-top:7px;
+}
+.navbar-brand a{
+  text-decoration: none;
+}
+.navbar-brand a h1{
+  text-decoration:none;
+  font-style: fantasy;
+  font-weight: bold;
+  color:#fff;
+  font-size: 150%;
+  text-shadow: 0px 0px 10px #900C3F;
+  margin:5px;
+}
+.navbar-brand a:hover{
+  text-decoration:none;
+}
+
+#collapsable-nav a{
+  text-align:center;
+  color:white;
+  background-color:#900C3F;
+  margin:0;
+  /*border-radius: 5px;*/
+}
+#collapsable-nav a:hover{
+
+  text-align:center;
+  color:#900C3F;
+  background-color: #fff;
+}
+
+#title{
+  margin-bottom:25px;
+  font-style:fantasy;
+}
+
+.item-box{
+  color:#fff;
+  background-color:#73C6B6;
+  border:2px solid #900C3F;
+  border-radius:2px;
+  height:1000px;
+  margin-bottom:20px;
+  box-shadow: 0 0 10px #900C3F;
+  font-family:monospace;
+  font-weight:bold;
+}
+
+#chicken-content, #beef-content, #sushi-content{
+  font-family:monospace;
+  font-size:0.7em;
+  margin:5px;
+}
+
+/*@media (max-width: 767px){
+
+}*/
